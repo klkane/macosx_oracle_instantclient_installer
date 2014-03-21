@@ -1,0 +1,26 @@
+This script is a helper for installing the Oracle Instant Client for Mac OS X.
+
+It has been tested with the Oracle Instant Client 11.2 series for 64 bit intel architecture.
+Using this script takes all the necessary steps to allow Perl's DBD::Oracle to install
+properly from CPAN.
+
+Prerequisites:
+	1) Install X Code
+	2) Install X Code commandline tools
+	3) Download the Oracle Instant Client .zip files,
+		At minimum you probably want the SDK, BASIC and SQLPLUS.
+
+		*** It doesn't matter where you download them to, leaving them in
+	Downloads is fine.  Make sure you run this script as whatever user downloaded
+	the install files.
+
+Instructions
+	Run the following command from your Terminal.app, it will prompt you for your
+	password, as this requires admin priveleges to install:
+
+	\curl -L https://raw.githubusercontent.com/klkane/macosx_oracle_instantclient_installer/installer.sh | bash 
+
+Testing/Usage
+
+	Close and reopen Terminal.app and now you should be able to use Oracle 
+Instant Client from the commandline.  Try using sqlplus.
