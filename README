@@ -18,7 +18,7 @@ Instructions
 	Run the following command from your Terminal.app, it will prompt you for your
 	password, as this requires admin priveleges to install:
 
-	\curl -L https://raw.githubusercontent.com/klkane/macosx_oracle_instantclient_installer/installer.sh | bash 
+	\curl -L https://raw.githubusercontent.com/klkane/macosx_oracle_instantclient_installer/master/installer.sh | bash 
 
 Testing/Usage
 
